@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Swati Priya — Automation Tester at TCS with 1 year of experience in Java, Selenium WebDriver, and e-commerce testing." />
+<title>Swati Priya | Automation Tester</title>
+<style>
+:root{--bg:#0b1020;--panel:#111a30;--panel2:#151f39;--text:#eef2ff;--muted:#a6b1cc;--accent:#8b9cff;--accent2:#69e0d0;--line:rgba(255,255,255,.11);--shadow:0 18px 50px rgba(0,0,0,.25)}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(105,224,208,.11),transparent 32%),radial-gradient(ellipse at 0% 25%,rgba(139,156,255,.14),transparent 34%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,16,32,.8);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:24px}
+.brand{font-weight:800;letter-spacing:-.04em;font-size:1.2rem}.brand span{color:var(--accent2)}
+.links{display:flex;gap:25px;align-items:center;color:var(--muted);font-size:.92rem}.links a:hover{color:var(--text)}
+.menu{display:none;background:none;border:1px solid var(--line);color:var(--text);padding:8px 12px;border-radius:10px}
+.hero{padding:94px 0 82px;display:grid;grid-template-columns:1.35fr .65fr;gap:58px;align-items:center;min-height:610px}
+.eyebrow{color:var(--accent2);text-transform:uppercase;letter-spacing:.18em;font-size:.76rem;font-weight:800}
+h1{font-size:clamp(2.8rem,6vw,5rem);line-height:1.04;letter-spacing:-.065em;margin:17px 0 22px}
+.gradient{background:linear-gradient(100deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:1.12rem;color:var(--muted);max-width:650px}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 18px;border-radius:12px;font-weight:750;border:1px solid var(--line);transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(110deg,var(--accent),#a7b2ff);color:#10162a;border:0}.secondary{background:rgba(255,255,255,.035)}
+.hero-card{border:1px solid var(--line);border-radius:25px;padding:28px;background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.02));box-shadow:var(--shadow);position:relative;overflow:hidden}
+.hero-card:before{content:"";position:absolute;width:190px;height:190px;border-radius:50%;background:rgba(105,224,208,.13);filter:blur(45px);right:-65px;top:-60px}
+.avatar{width:82px;height:82px;border-radius:24px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#10162a;font-size:1.8rem;font-weight:900;margin-bottom:20px}
+.status{display:inline-flex;align-items:center;gap:8px;color:var(--accent2);font-size:.84rem;background:rgba(105,224,208,.08);padding:6px 10px;border-radius:999px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--accent2)}
+.hero-card h3{margin:16px 0 5px;font-size:1.4rem}.hero-card p{color:var(--muted);margin:0}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:23px}.mini{background:rgba(255,255,255,.045);border:1px solid var(--line);padding:13px;border-radius:13px}.mini strong{display:block;font-size:.95rem}.mini span{color:var(--muted);font-size:.8rem}
+section{padding:74px 0;scroll-margin-top:75px}
+.section-head{max-width:680px;margin-bottom:32px}.kicker{color:var(--accent2);font-size:.76rem;text-transform:uppercase;letter-spacing:.17em;font-weight:800}
+h2{font-size:clamp(2rem,4vw,3rem);line-height:1.15;letter-spacing:-.045em;margin:9px 0 13px}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border:1px solid var(--line);border-radius:19px;padding:23px;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);border-color:rgba(139,156,255,.55)}
+.card-icon{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:rgba(139,156,255,.13);color:var(--accent);font-weight:900;font-size:1.1rem}
+.card h3{font-size:1.1rem;margin:15px 0 8px}.card p{color:var(--muted);font-size:.94rem;margin:0 0 16px}
+.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{font-size:.75rem;padding:5px 9px;border:1px solid var(--line);border-radius:999px;color:#d4dcf5;background:rgba(255,255,255,.025)}
+.split{display:grid;grid-template-columns:.75fr 1.25fr;gap:25px;align-items:start}
+.panel{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:20px;padding:25px}
+.panel p{color:var(--muted)}
+.skill-list{display:flex;flex-wrap:wrap;gap:9px}.skill{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:9px 12px;font-size:.88rem}
+.timeline{display:grid;gap:15px}.timeline-item{padding:20px 21px;border-left:2px solid var(--accent);background:rgba(255,255,255,.035);border-radius:0 14px 14px 0}.timeline-item h3{margin:0 0 4px}.timeline-item .meta{color:var(--accent2);font-size:.83rem;font-weight:700}.timeline-item p{margin:9px 0 0;color:var(--muted)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{background:linear-gradient(145deg,rgba(139,156,255,.11),rgba(105,224,208,.045));border:1px solid var(--line);border-radius:22px;padding:28px}.contact-card p{color:var(--muted)}
+.contact-link{display:flex;align-items:center;gap:13px;padding:14px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.contact-link:last-child{border:0}.contact-link b{display:block}.contact-link small{color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.note{font-size:.82rem;color:var(--muted);margin-top:18px}
+@media(max-width:850px){.hero{grid-template-columns:1fr;gap:35px;padding-top:65px;min-height:unset}.hero-card{max-width:520px}.grid{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}.contact{grid-template-columns:1fr}}
+@media(max-width:600px){.wrap{width:min(100% - 28px,1120px)}.nav-inner{min-height:66px}.menu{display:block}.links{display:none;position:absolute;top:65px;left:0;right:0;background:#0f172b;padding:18px 22px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.links.open{display:flex}.hero{padding:54px 0}.grid{grid-template-columns:1fr}section{padding:56px 0}h1{font-size:3.15rem}.hero-card{padding:22px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap nav-inner">
+    <a class="brand" href="#home">swati<span>.</span></a>
+    <button class="menu" id="menuBtn" aria-label="Toggle navigation">Menu ☰</button>
+    <div class="links" id="navLinks">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">Automation Tester · Quality Engineering</div>
+      <h1>Hi, I’m <span class="gradient">Swati Priya.</span><br/>I test. I automate. I improve.</h1>
+      <p class="lead">I’m an Automation Tester at Tata Consultancy Services (TCS) with 1 year of experience in automation testing. I work on an e-commerce website serving the UK and Republic of Ireland (ROI), focusing on test automation and dependable software quality.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore my work <span>↘</span></a>
+        <a class="btn secondary" href="#contact">Contact me <span>↗</span></a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <div class="avatar">SP</div>
+      <span class="status"><span class="dot"></span> Quality-minded · Always learning</span>
+      <h3>Automation Tester</h3>
+      <p>Java · Selenium WebDriver · E-commerce Testing</p>
+      <div class="mini-grid">
+        <div class="mini"><strong>1 Year</strong><span>Automation testing</span></div>
+        <div class="mini"><strong>TCS</strong><span>Professional experience</span></div>
+        <div class="mini"><strong>E-commerce</strong><span>UK & ROI regions</span></div>
+        <div class="mini"><strong>Quality</strong><span>Reliable releases</span></div>
+      </div>
+    </aside>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">01 / Introduction</div><h2>Quality is built into every step.</h2><p>I bring a structured, detail-oriented approach to software testing, with 1 year of automation testing experience at TCS. In my current project, I support quality assurance for an e-commerce website serving the UK and Republic of Ireland (ROI), helping validate user journeys and maintain reliable releases.</p></div>
+      <div class="split">
+        <div class="panel"><h3>My approach</h3><p>I believe good automation is more than scripting clicks. It means designing meaningful test scenarios, validating expected outcomes, keeping scripts maintainable, and investigating failures carefully.</p><p>My current work is in an e-commerce environment serving the UK and ROI markets. I focus on functional and regression coverage and on supporting consistent customer experiences across key website journeys.</p></div>
+        <div class="panel"><h3>What I bring</h3><div class="skill-list"><span class="skill">Selenium WebDriver</span><span class="skill">Java</span><span class="skill">Functional Testing</span><span class="skill">Regression Testing</span><span class="skill">Smoke Testing</span><span class="skill">Sanity Testing</span><span class="skill">Test Case Design</span><span class="skill">Test Execution</span><span class="skill">Defect Retesting</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">02 / Project</div><h2>E-commerce website testing.</h2><p>My current project at TCS involves automation testing for an e-commerce website serving customers in the UK and Republic of Ireland (ROI).</p></div>
+      <div class="grid">
+        <article class="card"><div class="card-icon">🛒</div><h3>UK & ROI E-commerce Website</h3><p>Current client project at TCS. Contribute to automation testing for an e-commerce website serving the UK and Republic of Ireland, with attention to customer-facing journeys and release quality.</p><div class="tags"><span class="tag">E-commerce</span><span class="tag">Selenium WebDriver</span><span class="tag">Java</span></div></article>
+        <article class="card"><div class="card-icon">✓</div><h3>Functional & Regression Testing</h3><p>Validate application functionality against test scenarios, execute regression checks, and retest defects to help confirm fixes and reduce the risk of regressions.</p><div class="tags"><span class="tag">Functional Testing</span><span class="tag">Regression</span><span class="tag">Defect Retesting</span></div></article>
+        <article class="card"><div class="card-icon">↻</div><h3>Test Execution & Quality Checks</h3><p>Support smoke and sanity testing, design and execute test cases, and communicate test outcomes and defects to support the team's quality process.</p><div class="tags"><span class="tag">Smoke Testing</span><span class="tag">Sanity Testing</span><span class="tag">Test Execution</span></div></article>
+      </div>
+      <p class="note">For confidentiality, avoid publishing client names, private URLs, screenshots, test data, or internal implementation details from your TCS project. Add only information approved for public sharing.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">03 / Experience</div><h2>Learning, testing, improving.</h2><p>Use this section to present your real role, responsibilities, and outcomes clearly.</p></div>
+      <div class="timeline">
+        <div class="timeline-item"><div class="meta">CURRENT ROLE · 1 YEAR EXPERIENCE</div><h3>Automation Tester · Tata Consultancy Services (TCS)</h3><p>Working on an e-commerce website serving the UK and Republic of Ireland (ROI). Responsibilities include Java-based UI automation using Selenium WebDriver, functional and regression testing, smoke and sanity testing, test case design and execution, and defect retesting.</p></div>
+        <div class="timeline-item"><div class="meta">PROJECT DOMAIN</div><h3>E-commerce · UK & Republic of Ireland</h3><p>Support testing activities for customer-facing e-commerce workflows across the UK and ROI regions. Add specific workflows, tools, framework details, and measurable outcomes only where they accurately reflect your work and can be shared publicly.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">04 / Technical skills</div><h2>Tools and testing practices.</h2><p>Core skills based on my automation testing role. Additional tools can be added as applicable to my project experience.</p></div>
+      <div class="grid">
+        <div class="card"><div class="card-icon">Ja</div><h3>Programming & Automation</h3><div class="tags"><span class="tag">Java</span><span class="tag">Selenium WebDriver</span><span class="tag">Java-based Automation</span></div></div>
+        <div class="card"><div class="card-icon">◎</div><h3>Testing</h3><div class="tags"><span class="tag">Functional Testing</span><span class="tag">Regression Testing</span><span class="tag">Smoke Testing</span><span class="tag">Sanity Testing</span><span class="tag">Test Case Design</span><span class="tag">Test Execution</span><span class="tag">Defect Retesting</span></div></div>
+        <div class="card"><div class="card-icon">⌁</div><h3>Project & Methodology</h3><div class="tags"><span class="tag">E-commerce Testing</span><span class="tag">UK & ROI Region</span><span class="tag">Quality Assurance</span><span class="tag">Agile / Scrum (if applicable)</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">05 / Contact</div><h2>Let’s make software more reliable.</h2><p>Have an opportunity, a project, or an idea to discuss? I’d be happy to connect.</p></div>
+      <div class="contact">
+        <div class="contact-card"><h3>Get in touch</h3><p>For automation testing opportunities, collaboration, or professional networking, reach out through any of the channels below.</p><a class="btn primary" href="mailto:sp220903@gmail.com?subject=Automation%20Testing%20Opportunity" onclick="return openEmail(event)">Email me ↗</a><p id="emailFallback" class="note" hidden>If your email app did not open, email <strong>sp220903@gmail.com</strong> manually or use the button below.</p><button class="btn secondary" type="button" onclick="copyEmail()">Copy email address</button></div>
+        <div class="panel">
+          <a class="contact-link" href="mailto:sp220903@gmail.com?subject=Hello%20Swati" onclick="return openEmail(event)"><span>✉</span><span><b>Email</b><small>sp220903@gmail.com</small></span></a>
+          <a class="contact-link" href="https://www.linkedin.com/in/swati-priya-45b775219/" target="_blank" rel="noreferrer"><span>in</span><span><b>LinkedIn</b><small>Connect professionally ↗</small></span></a>
+          <a class="contact-link" href="https://github.com/theclumsycoder3" target="_blank" rel="noreferrer"><span>⌘</span><span><b>GitHub</b><small>View repositories ↗</small></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> Swati Priya</span><span>Designed with care · Built for quality</span><a href="#home">Back to top ↑</a></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+const menuBtn = document.getElementById('menuBtn');
+const navLinks = document.getElementById('navLinks');
+menuBtn.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => navLinks.classList.remove('open')));
+
+function openEmail(event) {
+  // Let the browser handle mailto. Show a fallback for users without a configured mail app.
+  const fallback = document.getElementById('emailFallback');
+  if (fallback) fallback.hidden = false;
+  return true;
+}
+function copyEmail() {
+  const email = 'sp220903@gmail.com';
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(email).then(() => {
+      const fallback = document.getElementById('emailFallback');
+      if (fallback) { fallback.hidden = false; fallback.textContent = 'Email address: ' + email + ' (copied)'; }
+    }).catch(() => window.prompt('Copy this email address:', email));
+  } else {
+    window.prompt('Copy this email address:', email);
+  }
+}
+</script>
+</body>
+</html>
