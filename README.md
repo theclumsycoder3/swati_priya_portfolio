@@ -1,1 +1,0 @@
-# swati_priya_portfolio
